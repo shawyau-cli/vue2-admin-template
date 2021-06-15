@@ -32,6 +32,7 @@ module.exports = {
     },
   },
   chainWebpack: (config) => {
+    // 设置路径别名
     config.resolve.alias.set('@', resolve('src'));
 
     // 在main.js入口文件添加ES模块按需加载
