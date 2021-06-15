@@ -1,0 +1,7 @@
+@mixin align-items($type: center) {
+  align-items: $type;
+}
+
+@mixin justify-content($type: center) {
+  justify-content: $type;
+}
