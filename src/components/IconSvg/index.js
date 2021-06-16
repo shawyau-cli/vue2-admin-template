@@ -1,4 +1,4 @@
-import iconsvg from './index.vue';
+import iconsvg from './IconSvg.vue';
 
 /**
  * 自动导入 assets/iconsvg 下svg文件
